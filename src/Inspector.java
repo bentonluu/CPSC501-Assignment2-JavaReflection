@@ -29,11 +29,13 @@ public class Inspector {
         printFields(c, obj, recursive, depth);
     }
 
+    // Print class information
     public void printClass(Class c, int depth) {
         formatPrint("CLASS", depth);
         formatPrint("Class: " + c + "\n", depth);
     }
 
+    // Print superclass information
     public void printSuperclass(Class c, Object obj, boolean recursive, int depth) {
         formatPrint("SUPERCLASS (" + c.getName() + ")", depth);
 
@@ -47,6 +49,7 @@ public class Inspector {
         }
     }
 
+    // Print interface information
     public void printInterfaces(Class c, Object obj, boolean recursive, int depth) {
         formatPrint("INTERFACES (" + c.getName() + ")", depth);
 
@@ -62,6 +65,7 @@ public class Inspector {
         }
     }
 
+    // Print constructor information
     public void printConstructor(Class c, Object obj, boolean recursive, int depth) {
         formatPrint("CONSTRUCTOR (" + c.getName() + ")", depth);
 
@@ -88,6 +92,7 @@ public class Inspector {
         }
     }
 
+    // Print method information
     public void printMethods(Class c, Object obj, boolean recursive, int depth) {
         formatPrint("METHODS (" + c.getName() + ")", depth);
 
@@ -125,6 +130,7 @@ public class Inspector {
         }
     }
 
+    // Print field information
     public void printFields(Class c, Object obj, boolean recursive, int depth) {
         formatPrint("FIELDS (" + c.getName() + ")", depth);
 
@@ -156,26 +162,7 @@ public class Inspector {
                     }
                 }
                 else if (field.getType().isArray()) {
-                    int arrayLen = Array.getLength(fieldObject);
-
-                    formatPrint("Component type: " + field.getType().getComponentType(), depth);
-                    formatPrint("Array length: " + arrayLen, depth);
-                    System.out.print(tabIndication(depth) + "Array content: ");
-
-                    for (int i = 0; i < arrayLen; i++) {
-                        Object arrayObj = Array.get(fieldObject, i);
-                        System.out.print(arrayObj  + " ");
-                    }
-                    System.out.println("\n");
-
-                    if (recursive == true) {
-                        if (field == null) {
-                            formatPrint("Field value: null\n", depth);
-                        }
-                        else {
-                            inspectClass(fieldObject.getClass(), fieldObject, recursive, depth + 1);
-                        }
-                    }
+                    inspectArray(field.getType(), fieldObject, recursive, depth);
                 }
                 else {
                     formatPrint("Field value (obj ref): " + fieldObject + "@" +  System.identityHashCode(fieldObject) + "\n",depth);
@@ -191,11 +178,46 @@ public class Inspector {
         }
     }
 
+    // Used to inspect elements within an array field
+    public void inspectArray(Class field, Object fieldObject, boolean recursive, int depth) {
+        int arrayLen = Array.getLength(fieldObject);
+
+        formatPrint("Component type: " + field.getComponentType(), depth);
+        formatPrint("Array length: " + arrayLen, depth);
+        formatPrint("--- Array content --- ", depth);
+
+        for (int i = 0; i < arrayLen; i++) {
+            Object arrayObj = Array.get(fieldObject, i);
+
+            if (arrayObj == null) {
+                formatPrint("Array content value (" + i + "): null", depth);
+            }
+            else if (field.getComponentType().isPrimitive()) {
+                formatPrint("Array primitive content value (" + i + "): " + arrayObj, depth);
+            }
+            else if (field.getComponentType().isArray()) {
+                formatPrint("Array content value (" + i + "): " + arrayObj, depth);
+                if (recursive == true) {
+                    inspectArray(arrayObj.getClass(), arrayObj, recursive, depth + 1);
+                }
+            }
+            else {
+                formatPrint("Array object ref. content value (" + i + "): " + arrayObj.getClass().getName() + "@" + System.identityHashCode(fieldObject), depth);
+                if (recursive == true) {
+                    inspectClass(arrayObj.getClass(), arrayObj, recursive, depth + 1);
+                }
+            }
+        }
+        System.out.println();
+    }
+
+    // Format content printed to console based on the depth level of recursion
     public void formatPrint(String content, int depth) {
         System.out.println(tabIndication(depth) + content);
     }
 
-    private String tabIndication(int depth) {
+    // Number of tabs needed based on the depth level of recursion
+    public String tabIndication(int depth) {
         String tabs = "";
         for (int i = 0; i < depth; i++) {
             tabs = tabs + "\t";
