@@ -5,153 +5,201 @@ public class Inspector {
     public void inspect(Object obj, boolean recursive) {
         Class c = obj.getClass();
 
+        System.out.println("");
         inspectClass(c, obj, recursive, 0);
     }
 
     private void inspectClass(Class c, Object obj, boolean recursive, int depth) {
-        System.out.println("");
-
         // 1) Class name
-        numOfTabs(depth);
-        System.out.println("Class: " + c);
+        printClass(c, depth);
 
         // 2) Super-class name
-        Class superclass = c.getSuperclass();
-        numOfTabs(depth);
-        System.out.println("Super-class: " + superclass);
-
-        if (superclass != null) {
-            depth = depth + 1;
-            inspectClass(c.getSuperclass(),obj,recursive, depth);
-            depth = 0;
-        }
-
-        System.out.println("");
+        printSuperclass(c, obj, recursive, depth);
 
         // 3) Interface name
-        Class[] interfaceList = c.getInterfaces();
-        if (interfaceList.length == 0) {
-            numOfTabs(depth);
-            System.out.println("No interface(s) found");
-        }
-        else {
-            for (Class inter : interfaceList) {
-                numOfTabs(depth);
-                System.out.println("Interface: " + inter);
-                //depth = depth + 1;
-                inspectClass(inter,obj,recursive,depth+1);
-            }
-            depth = 0;
-        }
-
-        System.out.println("");
+        printInterfaces(c, obj, recursive, depth);
 
         // 4) Constructor name, parameter types and modifier
-        Constructor[] constructorList = c.getDeclaredConstructors();
-        if (constructorList.length == 0) {
-            numOfTabs(depth);
-            System.out.println("No constructor(s) found");
-        }
-        else {
-            for (Constructor constructor : constructorList) {
-                numOfTabs(depth);
-                System.out.println("Constructor name: " + constructor.getName());
-
-                Class[] cParamTypes = constructor.getParameterTypes();
-                if (cParamTypes.length == 0) {
-                    numOfTabs(depth);
-                    System.out.println("Constructor parameter type: None");
-                }
-                else {
-                    for (Class paramType : cParamTypes) {
-                        numOfTabs(depth);
-                        System.out.println("Constructor parameter type: " + paramType);
-                    }
-                }
-
-                numOfTabs(depth);
-                System.out.println("Constructor modifier: " + Modifier.toString(constructor.getModifiers()));
-
-                System.out.println("");
-            }
-        }
+        printConstructor(c, obj, recursive, depth);
 
         // 5) Method name, exceptions thrown, parameter types, return type, and modifier
-        Method methodList[] = c.getDeclaredMethods();
-        if (methodList.length == 0) {
-            numOfTabs(depth);
-            System.out.println("No method(s) found");
-        }
-        else {
-            for (Method method : methodList) {
-                numOfTabs(depth);
-                System.out.println("Method name: " + method.getName());
-
-                Class[] exceptionList = method.getExceptionTypes();
-                if (exceptionList.length == 0) {
-                    numOfTabs(depth);
-                    System.out.println("Method exception: None");
-                }
-                else {
-                    for (Class except : exceptionList) {
-                        numOfTabs(depth);
-                        System.out.println("Method exception: " + except);
-                    }
-                }
-
-                Class[] mParamTypes = method.getParameterTypes();
-                if (mParamTypes.length == 0) {
-                    numOfTabs(depth);
-                    System.out.println("Method parameter type: None");
-                }
-                else {
-                    for (Class paramType : mParamTypes) {
-                        numOfTabs(depth);
-                        System.out.println("Method parameter type: " + paramType);
-                    }
-                }
-
-                numOfTabs(depth);
-                System.out.println("Method return type: " + method.getReturnType());
-                numOfTabs(depth);
-                System.out.println("Method modifier: " + Modifier.toString(method.getModifiers()));
-
-                System.out.println("");
-            }
-        }
+        printMethods(c, obj, recursive, depth);
 
         // 6) Field name, type, modifier and current value
-        Field[] fieldList = c.getDeclaredFields();
-        if (fieldList.length == 0) {
-            numOfTabs(depth);
-            System.out.println("No field(s) found");
-            System.out.println("");
+        printFields(c, obj, recursive, depth);
+    }
+
+    public void printClass(Class c, int depth) {
+        formatPrint("CLASS", depth);
+        formatPrint("Class: " + c + "\n", depth);
+    }
+
+    public void printSuperclass(Class c, Object obj, boolean recursive, int depth) {
+        formatPrint("SUPERCLASS (" + c.getName() + ")", depth);
+
+        Class superclass = c.getSuperclass();
+        if (superclass != null) {
+            formatPrint("Superclass: " + superclass + "\n", depth);
+            inspectClass(c.getSuperclass(),obj,recursive, depth + 1);
         }
         else {
-            try {
-                for (Field field : fieldList) {
-                    field.setAccessible(true);
-                    numOfTabs(depth);
-                    System.out.println("Field name: " + field.getName());
-                    numOfTabs(depth);
-                    System.out.println("Field type: " + field.getType());
-                    numOfTabs(depth);
-                    System.out.println("Field modifier: " + Modifier.toString(field.getModifiers()));
-                    numOfTabs(depth);
-                    System.out.println("Field current value: " + field.get(obj));
-
-                    System.out.println("");
-                }
-            }
-            catch (IllegalAccessException e) {
-                System.out.println("Field not accessible");
-            }
+            formatPrint("Superclass: null\n", depth);
         }
     }
 
-    private void numOfTabs(int depth) {
-        for (int i = 0; i < depth; i++) {
-            System.out.print("\t");
+    public void printInterfaces(Class c, Object obj, boolean recursive, int depth) {
+        formatPrint("INTERFACES (" + c.getName() + ")", depth);
+
+        Class[] interfaceList = c.getInterfaces();
+        if (interfaceList.length != 0) {
+            for (Class inter : interfaceList) {
+                formatPrint("Interface: " + inter + "\n", depth);
+                inspectClass(inter,obj,recursive,depth + 1);
+            }
         }
+        else {
+            formatPrint("No interface(s) found\n", depth);
+        }
+    }
+
+    public void printConstructor(Class c, Object obj, boolean recursive, int depth) {
+        formatPrint("CONSTRUCTOR (" + c.getName() + ")", depth);
+
+        Constructor[] constructorList = c.getDeclaredConstructors();
+        if (constructorList.length != 0) {
+            for (Constructor constructor : constructorList) {
+                formatPrint("Constructor name: " + constructor.getName(), depth);
+
+                Class[] cParamTypes = constructor.getParameterTypes();
+                if (cParamTypes.length != 0) {
+                    for (Class paramType : cParamTypes) {
+                        formatPrint("Constructor parameter type: " + paramType, depth);
+                    }
+                }
+                else {
+                    formatPrint("Constructor parameter type: None", depth);
+                }
+
+                formatPrint("Constructor modifier: " + Modifier.toString(constructor.getModifiers()) + "\n", depth);
+            }
+        }
+        else {
+           formatPrint("No constructor(s) found\n", depth);
+        }
+    }
+
+    public void printMethods(Class c, Object obj, boolean recursive, int depth) {
+        formatPrint("METHODS (" + c.getName() + ")", depth);
+
+        Method methodList[] = c.getDeclaredMethods();
+        if (methodList.length != 0) {
+            for (Method method : methodList) {
+                formatPrint("Method name: " + method.getName(), depth);
+
+                Class[] exceptionList = method.getExceptionTypes();
+                if (exceptionList.length != 0) {
+                    for (Class exception : exceptionList) {
+                        formatPrint("Method exception: " + exception, depth);
+                    }
+                }
+                else {
+                    formatPrint("Method exception: None", depth);
+                }
+
+                Class[] mParamTypes = method.getParameterTypes();
+                if (mParamTypes.length != 0) {
+                    for (Class paramType : mParamTypes) {
+                        formatPrint("Method parameter type: " + paramType, depth);
+                    }
+                }
+                else {
+                    formatPrint("Method parameter type: None", depth);
+                }
+
+                formatPrint("Method return type: " + method.getReturnType(), depth);
+                formatPrint("Method modifier: " + Modifier.toString(method.getModifiers()) + "\n", depth);
+            }
+        }
+        else {
+            formatPrint("No method(s) found\n", depth);
+        }
+    }
+
+    public void printFields(Class c, Object obj, boolean recursive, int depth) {
+        formatPrint("FIELDS (" + c.getName() + ")", depth);
+
+        Field[] fieldList = c.getDeclaredFields();
+        if (fieldList.length != 0) {
+            for (Field field : fieldList) {
+                formatPrint("Field name: " + field.getName(), depth);
+                formatPrint("Field type: " + field.getType(), depth);
+                formatPrint("Field modifier: " + Modifier.toString(field.getModifiers()), depth);
+
+                field.setAccessible(true);
+
+                Object fieldObject = null;
+                try {
+                    fieldObject = field.get(obj);
+                }
+                catch (IllegalAccessException e) {
+                    System.out.println("Cannot access field");
+                }
+
+                if (fieldObject == null) {
+                    formatPrint("Field value: null\n", depth);
+                }
+                else if (field.getType().isPrimitive()) {
+                    formatPrint("Field value: " + fieldObject + "\n", depth);
+
+                    if (recursive == true) {
+                        inspectClass(field.getType(), fieldObject, recursive, depth + 1);
+                    }
+                }
+                else if (field.getType().isArray()) {
+                    int arrayLen = Array.getLength(fieldObject);
+
+                    formatPrint("Component type: " + field.getType().getComponentType(), depth);
+                    formatPrint("Array length: " + arrayLen, depth);
+                    System.out.print(tabIndication(depth) + "Array content: ");
+
+                    for (int i = 0; i < arrayLen; i++) {
+                        Object arrayObj = Array.get(fieldObject, i);
+                        System.out.print(arrayObj  + " ");
+                    }
+                    System.out.println("\n");
+
+                    if (recursive == true) {
+                        if (field == null) {
+                            formatPrint("Field value: null\n", depth);
+                        }
+                        else {
+                            inspectClass(fieldObject.getClass(), fieldObject, recursive, depth + 1);
+                        }
+                    }
+                }
+                else {
+                    formatPrint("Field value (obj ref): " + fieldObject + "@" +  System.identityHashCode(fieldObject) + "\n",depth);
+
+                    if (recursive == true) {
+                        inspectClass(fieldObject.getClass(), fieldObject, recursive, depth + 1);
+                    }
+                }
+            }
+        }
+        else {
+            formatPrint("No field(s) found\n", depth);
+        }
+    }
+
+    public void formatPrint(String content, int depth) {
+        System.out.println(tabIndication(depth) + content);
+    }
+
+    private String tabIndication(int depth) {
+        String tabs = "";
+        for (int i = 0; i < depth; i++) {
+            tabs = tabs + "\t";
+        }
+        return(tabs);
     }
 }
