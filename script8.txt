@@ -1,0 +1,1256 @@
+======================================================
+Filename: script8.txt
+Running Test: Test String
+Recursive: true
+
+CLASS
+Class: class java.lang.String
+
+SUPERCLASS (java.lang.String)
+Superclass: class java.lang.Object
+
+	CLASS
+	Class: class java.lang.Object
+
+	SUPERCLASS (java.lang.Object)
+	Superclass: null
+
+	INTERFACES (java.lang.Object)
+	No interface(s) found
+
+	CONSTRUCTOR (java.lang.Object)
+	Constructor name: java.lang.Object
+	Constructor parameter type: None
+	Constructor modifier: public
+
+	METHODS (java.lang.Object)
+	Method name: finalize
+	Method exception: class java.lang.Throwable
+	Method parameter type: None
+	Method return type: void
+	Method modifier: protected
+
+	Method name: wait
+	Method exception: class java.lang.InterruptedException
+	Method parameter type: long
+	Method parameter type: int
+	Method return type: void
+	Method modifier: public final
+
+	Method name: wait
+	Method exception: class java.lang.InterruptedException
+	Method parameter type: long
+	Method return type: void
+	Method modifier: public final native
+
+	Method name: wait
+	Method exception: class java.lang.InterruptedException
+	Method parameter type: None
+	Method return type: void
+	Method modifier: public final
+
+	Method name: equals
+	Method exception: None
+	Method parameter type: class java.lang.Object
+	Method return type: boolean
+	Method modifier: public
+
+	Method name: toString
+	Method exception: None
+	Method parameter type: None
+	Method return type: class java.lang.String
+	Method modifier: public
+
+	Method name: hashCode
+	Method exception: None
+	Method parameter type: None
+	Method return type: int
+	Method modifier: public native
+
+	Method name: getClass
+	Method exception: None
+	Method parameter type: None
+	Method return type: class java.lang.Class
+	Method modifier: public final native
+
+	Method name: clone
+	Method exception: class java.lang.CloneNotSupportedException
+	Method parameter type: None
+	Method return type: class java.lang.Object
+	Method modifier: protected native
+
+	Method name: registerNatives
+	Method exception: None
+	Method parameter type: None
+	Method return type: void
+	Method modifier: private static native
+
+	Method name: notify
+	Method exception: None
+	Method parameter type: None
+	Method return type: void
+	Method modifier: public final native
+
+	Method name: notifyAll
+	Method exception: None
+	Method parameter type: None
+	Method return type: void
+	Method modifier: public final native
+
+	FIELDS (java.lang.Object)
+	No field(s) found
+
+INTERFACES (java.lang.String)
+Interface: interface java.io.Serializable
+
+	CLASS
+	Class: interface java.io.Serializable
+
+	SUPERCLASS (java.io.Serializable)
+	Superclass: null
+
+	INTERFACES (java.io.Serializable)
+	No interface(s) found
+
+	CONSTRUCTOR (java.io.Serializable)
+	No constructor(s) found
+
+	METHODS (java.io.Serializable)
+	No method(s) found
+
+	FIELDS (java.io.Serializable)
+	No field(s) found
+
+Interface: interface java.lang.Comparable
+
+	CLASS
+	Class: interface java.lang.Comparable
+
+	SUPERCLASS (java.lang.Comparable)
+	Superclass: null
+
+	INTERFACES (java.lang.Comparable)
+	No interface(s) found
+
+	CONSTRUCTOR (java.lang.Comparable)
+	No constructor(s) found
+
+	METHODS (java.lang.Comparable)
+	Method name: compareTo
+	Method exception: None
+	Method parameter type: class java.lang.Object
+	Method return type: int
+	Method modifier: public abstract
+
+	FIELDS (java.lang.Comparable)
+	No field(s) found
+
+Interface: interface java.lang.CharSequence
+
+	CLASS
+	Class: interface java.lang.CharSequence
+
+	SUPERCLASS (java.lang.CharSequence)
+	Superclass: null
+
+	INTERFACES (java.lang.CharSequence)
+	No interface(s) found
+
+	CONSTRUCTOR (java.lang.CharSequence)
+	No constructor(s) found
+
+	METHODS (java.lang.CharSequence)
+	Method name: toString
+	Method exception: None
+	Method parameter type: None
+	Method return type: class java.lang.String
+	Method modifier: public abstract
+
+	Method name: length
+	Method exception: None
+	Method parameter type: None
+	Method return type: int
+	Method modifier: public abstract
+
+	Method name: charAt
+	Method exception: None
+	Method parameter type: int
+	Method return type: char
+	Method modifier: public abstract
+
+	Method name: subSequence
+	Method exception: None
+	Method parameter type: int
+	Method parameter type: int
+	Method return type: interface java.lang.CharSequence
+	Method modifier: public abstract
+
+	Method name: chars
+	Method exception: None
+	Method parameter type: None
+	Method return type: interface java.util.stream.IntStream
+	Method modifier: public
+
+	Method name: codePoints
+	Method exception: None
+	Method parameter type: None
+	Method return type: interface java.util.stream.IntStream
+	Method modifier: public
+
+	Method name: lambda$codePoints$1
+	Method exception: None
+	Method parameter type: None
+	Method return type: interface java.util.Spliterator$OfInt
+	Method modifier: private
+
+	Method name: lambda$chars$0
+	Method exception: None
+	Method parameter type: None
+	Method return type: interface java.util.Spliterator$OfInt
+	Method modifier: private
+
+	FIELDS (java.lang.CharSequence)
+	No field(s) found
+
+CONSTRUCTOR (java.lang.String)
+Constructor name: java.lang.String
+Constructor parameter type: class [B
+Constructor parameter type: int
+Constructor parameter type: int
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class [B
+Constructor parameter type: class java.nio.charset.Charset
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class [B
+Constructor parameter type: class java.lang.String
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class [B
+Constructor parameter type: int
+Constructor parameter type: int
+Constructor parameter type: class java.nio.charset.Charset
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class [B
+Constructor parameter type: int
+Constructor parameter type: int
+Constructor parameter type: class java.lang.String
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class [C
+Constructor parameter type: boolean
+Constructor modifier: 
+
+Constructor name: java.lang.String
+Constructor parameter type: class java.lang.StringBuilder
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class java.lang.StringBuffer
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class [B
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class [I
+Constructor parameter type: int
+Constructor parameter type: int
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: None
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class [C
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class java.lang.String
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class [C
+Constructor parameter type: int
+Constructor parameter type: int
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class [B
+Constructor parameter type: int
+Constructor modifier: public
+
+Constructor name: java.lang.String
+Constructor parameter type: class [B
+Constructor parameter type: int
+Constructor parameter type: int
+Constructor parameter type: int
+Constructor modifier: public
+
+METHODS (java.lang.String)
+Method name: equals
+Method exception: None
+Method parameter type: class java.lang.Object
+Method return type: boolean
+Method modifier: public
+
+Method name: toString
+Method exception: None
+Method parameter type: None
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: hashCode
+Method exception: None
+Method parameter type: None
+Method return type: int
+Method modifier: public
+
+Method name: compareTo
+Method exception: None
+Method parameter type: class java.lang.Object
+Method return type: int
+Method modifier: public volatile
+
+Method name: compareTo
+Method exception: None
+Method parameter type: class java.lang.String
+Method return type: int
+Method modifier: public
+
+Method name: indexOf
+Method exception: None
+Method parameter type: class java.lang.String
+Method parameter type: int
+Method return type: int
+Method modifier: public
+
+Method name: indexOf
+Method exception: None
+Method parameter type: class [C
+Method parameter type: int
+Method parameter type: int
+Method parameter type: class java.lang.String
+Method parameter type: int
+Method return type: int
+Method modifier: static
+
+Method name: indexOf
+Method exception: None
+Method parameter type: class [C
+Method parameter type: int
+Method parameter type: int
+Method parameter type: class [C
+Method parameter type: int
+Method parameter type: int
+Method parameter type: int
+Method return type: int
+Method modifier: static
+
+Method name: indexOf
+Method exception: None
+Method parameter type: int
+Method return type: int
+Method modifier: public
+
+Method name: indexOf
+Method exception: None
+Method parameter type: class java.lang.String
+Method return type: int
+Method modifier: public
+
+Method name: indexOf
+Method exception: None
+Method parameter type: int
+Method parameter type: int
+Method return type: int
+Method modifier: public
+
+Method name: valueOf
+Method exception: None
+Method parameter type: char
+Method return type: class java.lang.String
+Method modifier: public static
+
+Method name: valueOf
+Method exception: None
+Method parameter type: class java.lang.Object
+Method return type: class java.lang.String
+Method modifier: public static
+
+Method name: valueOf
+Method exception: None
+Method parameter type: boolean
+Method return type: class java.lang.String
+Method modifier: public static
+
+Method name: valueOf
+Method exception: None
+Method parameter type: class [C
+Method parameter type: int
+Method parameter type: int
+Method return type: class java.lang.String
+Method modifier: public static
+
+Method name: valueOf
+Method exception: None
+Method parameter type: class [C
+Method return type: class java.lang.String
+Method modifier: public static
+
+Method name: valueOf
+Method exception: None
+Method parameter type: double
+Method return type: class java.lang.String
+Method modifier: public static
+
+Method name: valueOf
+Method exception: None
+Method parameter type: float
+Method return type: class java.lang.String
+Method modifier: public static
+
+Method name: valueOf
+Method exception: None
+Method parameter type: long
+Method return type: class java.lang.String
+Method modifier: public static
+
+Method name: valueOf
+Method exception: None
+Method parameter type: int
+Method return type: class java.lang.String
+Method modifier: public static
+
+Method name: checkBounds
+Method exception: None
+Method parameter type: class [B
+Method parameter type: int
+Method parameter type: int
+Method return type: void
+Method modifier: private static
+
+Method name: length
+Method exception: None
+Method parameter type: None
+Method return type: int
+Method modifier: public
+
+Method name: isEmpty
+Method exception: None
+Method parameter type: None
+Method return type: boolean
+Method modifier: public
+
+Method name: charAt
+Method exception: None
+Method parameter type: int
+Method return type: char
+Method modifier: public
+
+Method name: codePointAt
+Method exception: None
+Method parameter type: int
+Method return type: int
+Method modifier: public
+
+Method name: codePointBefore
+Method exception: None
+Method parameter type: int
+Method return type: int
+Method modifier: public
+
+Method name: codePointCount
+Method exception: None
+Method parameter type: int
+Method parameter type: int
+Method return type: int
+Method modifier: public
+
+Method name: offsetByCodePoints
+Method exception: None
+Method parameter type: int
+Method parameter type: int
+Method return type: int
+Method modifier: public
+
+Method name: getChars
+Method exception: None
+Method parameter type: int
+Method parameter type: int
+Method parameter type: class [C
+Method parameter type: int
+Method return type: void
+Method modifier: public
+
+Method name: getChars
+Method exception: None
+Method parameter type: class [C
+Method parameter type: int
+Method return type: void
+Method modifier: 
+
+Method name: getBytes
+Method exception: None
+Method parameter type: None
+Method return type: class [B
+Method modifier: public
+
+Method name: getBytes
+Method exception: class java.io.UnsupportedEncodingException
+Method parameter type: class java.lang.String
+Method return type: class [B
+Method modifier: public
+
+Method name: getBytes
+Method exception: None
+Method parameter type: int
+Method parameter type: int
+Method parameter type: class [B
+Method parameter type: int
+Method return type: void
+Method modifier: public
+
+Method name: getBytes
+Method exception: None
+Method parameter type: class java.nio.charset.Charset
+Method return type: class [B
+Method modifier: public
+
+Method name: contentEquals
+Method exception: None
+Method parameter type: class java.lang.StringBuffer
+Method return type: boolean
+Method modifier: public
+
+Method name: contentEquals
+Method exception: None
+Method parameter type: interface java.lang.CharSequence
+Method return type: boolean
+Method modifier: public
+
+Method name: nonSyncContentEquals
+Method exception: None
+Method parameter type: class java.lang.AbstractStringBuilder
+Method return type: boolean
+Method modifier: private
+
+Method name: equalsIgnoreCase
+Method exception: None
+Method parameter type: class java.lang.String
+Method return type: boolean
+Method modifier: public
+
+Method name: compareToIgnoreCase
+Method exception: None
+Method parameter type: class java.lang.String
+Method return type: int
+Method modifier: public
+
+Method name: regionMatches
+Method exception: None
+Method parameter type: int
+Method parameter type: class java.lang.String
+Method parameter type: int
+Method parameter type: int
+Method return type: boolean
+Method modifier: public
+
+Method name: regionMatches
+Method exception: None
+Method parameter type: boolean
+Method parameter type: int
+Method parameter type: class java.lang.String
+Method parameter type: int
+Method parameter type: int
+Method return type: boolean
+Method modifier: public
+
+Method name: startsWith
+Method exception: None
+Method parameter type: class java.lang.String
+Method return type: boolean
+Method modifier: public
+
+Method name: startsWith
+Method exception: None
+Method parameter type: class java.lang.String
+Method parameter type: int
+Method return type: boolean
+Method modifier: public
+
+Method name: endsWith
+Method exception: None
+Method parameter type: class java.lang.String
+Method return type: boolean
+Method modifier: public
+
+Method name: indexOfSupplementary
+Method exception: None
+Method parameter type: int
+Method parameter type: int
+Method return type: int
+Method modifier: private
+
+Method name: lastIndexOf
+Method exception: None
+Method parameter type: int
+Method parameter type: int
+Method return type: int
+Method modifier: public
+
+Method name: lastIndexOf
+Method exception: None
+Method parameter type: class [C
+Method parameter type: int
+Method parameter type: int
+Method parameter type: class [C
+Method parameter type: int
+Method parameter type: int
+Method parameter type: int
+Method return type: int
+Method modifier: static
+
+Method name: lastIndexOf
+Method exception: None
+Method parameter type: class [C
+Method parameter type: int
+Method parameter type: int
+Method parameter type: class java.lang.String
+Method parameter type: int
+Method return type: int
+Method modifier: static
+
+Method name: lastIndexOf
+Method exception: None
+Method parameter type: class java.lang.String
+Method parameter type: int
+Method return type: int
+Method modifier: public
+
+Method name: lastIndexOf
+Method exception: None
+Method parameter type: int
+Method return type: int
+Method modifier: public
+
+Method name: lastIndexOf
+Method exception: None
+Method parameter type: class java.lang.String
+Method return type: int
+Method modifier: public
+
+Method name: lastIndexOfSupplementary
+Method exception: None
+Method parameter type: int
+Method parameter type: int
+Method return type: int
+Method modifier: private
+
+Method name: substring
+Method exception: None
+Method parameter type: int
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: substring
+Method exception: None
+Method parameter type: int
+Method parameter type: int
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: subSequence
+Method exception: None
+Method parameter type: int
+Method parameter type: int
+Method return type: interface java.lang.CharSequence
+Method modifier: public
+
+Method name: concat
+Method exception: None
+Method parameter type: class java.lang.String
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: replace
+Method exception: None
+Method parameter type: char
+Method parameter type: char
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: replace
+Method exception: None
+Method parameter type: interface java.lang.CharSequence
+Method parameter type: interface java.lang.CharSequence
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: matches
+Method exception: None
+Method parameter type: class java.lang.String
+Method return type: boolean
+Method modifier: public
+
+Method name: contains
+Method exception: None
+Method parameter type: interface java.lang.CharSequence
+Method return type: boolean
+Method modifier: public
+
+Method name: replaceFirst
+Method exception: None
+Method parameter type: class java.lang.String
+Method parameter type: class java.lang.String
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: replaceAll
+Method exception: None
+Method parameter type: class java.lang.String
+Method parameter type: class java.lang.String
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: split
+Method exception: None
+Method parameter type: class java.lang.String
+Method parameter type: int
+Method return type: class [Ljava.lang.String;
+Method modifier: public
+
+Method name: split
+Method exception: None
+Method parameter type: class java.lang.String
+Method return type: class [Ljava.lang.String;
+Method modifier: public
+
+Method name: join
+Method exception: None
+Method parameter type: interface java.lang.CharSequence
+Method parameter type: class [Ljava.lang.CharSequence;
+Method return type: class java.lang.String
+Method modifier: public static transient
+
+Method name: join
+Method exception: None
+Method parameter type: interface java.lang.CharSequence
+Method parameter type: interface java.lang.Iterable
+Method return type: class java.lang.String
+Method modifier: public static
+
+Method name: toLowerCase
+Method exception: None
+Method parameter type: class java.util.Locale
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: toLowerCase
+Method exception: None
+Method parameter type: None
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: toUpperCase
+Method exception: None
+Method parameter type: None
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: toUpperCase
+Method exception: None
+Method parameter type: class java.util.Locale
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: trim
+Method exception: None
+Method parameter type: None
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: toCharArray
+Method exception: None
+Method parameter type: None
+Method return type: class [C
+Method modifier: public
+
+Method name: format
+Method exception: None
+Method parameter type: class java.util.Locale
+Method parameter type: class java.lang.String
+Method parameter type: class [Ljava.lang.Object;
+Method return type: class java.lang.String
+Method modifier: public static transient
+
+Method name: format
+Method exception: None
+Method parameter type: class java.lang.String
+Method parameter type: class [Ljava.lang.Object;
+Method return type: class java.lang.String
+Method modifier: public static transient
+
+Method name: copyValueOf
+Method exception: None
+Method parameter type: class [C
+Method parameter type: int
+Method parameter type: int
+Method return type: class java.lang.String
+Method modifier: public static
+
+Method name: copyValueOf
+Method exception: None
+Method parameter type: class [C
+Method return type: class java.lang.String
+Method modifier: public static
+
+Method name: intern
+Method exception: None
+Method parameter type: None
+Method return type: class java.lang.String
+Method modifier: public native
+
+FIELDS (java.lang.String)
+Field name: value
+Field type: class [C
+Field modifier: private final
+Component type: char
+Array length: 11
+--- Array content --- 
+Array primitive content value (0): T
+Array primitive content value (1): e
+Array primitive content value (2): s
+Array primitive content value (3): t
+Array primitive content value (4):  
+Array primitive content value (5): S
+Array primitive content value (6): t
+Array primitive content value (7): r
+Array primitive content value (8): i
+Array primitive content value (9): n
+Array primitive content value (10): g
+
+Field name: hash
+Field type: int
+Field modifier: private
+Field value: 0
+
+	CLASS
+	Class: int
+
+	SUPERCLASS (int)
+	Superclass: null
+
+	INTERFACES (int)
+	No interface(s) found
+
+	CONSTRUCTOR (int)
+	No constructor(s) found
+
+	METHODS (int)
+	No method(s) found
+
+	FIELDS (int)
+	No field(s) found
+
+Field name: serialVersionUID
+Field type: long
+Field modifier: private static final
+Field value: -6849794470754667710
+
+	CLASS
+	Class: long
+
+	SUPERCLASS (long)
+	Superclass: null
+
+	INTERFACES (long)
+	No interface(s) found
+
+	CONSTRUCTOR (long)
+	No constructor(s) found
+
+	METHODS (long)
+	No method(s) found
+
+	FIELDS (long)
+	No field(s) found
+
+Field name: serialPersistentFields
+Field type: class [Ljava.io.ObjectStreamField;
+Field modifier: private static final
+Component type: class java.io.ObjectStreamField
+Array length: 0
+--- Array content --- 
+
+Field name: CASE_INSENSITIVE_ORDER
+Field type: interface java.util.Comparator
+Field modifier: public static final
+Field value (obj ref): java.lang.String$CaseInsensitiveComparator@36baf30c@918221580
+
+	CLASS
+	Class: class java.lang.String$CaseInsensitiveComparator
+
+	SUPERCLASS (java.lang.String$CaseInsensitiveComparator)
+	Superclass: class java.lang.Object
+
+		CLASS
+		Class: class java.lang.Object
+
+		SUPERCLASS (java.lang.Object)
+		Superclass: null
+
+		INTERFACES (java.lang.Object)
+		No interface(s) found
+
+		CONSTRUCTOR (java.lang.Object)
+		Constructor name: java.lang.Object
+		Constructor parameter type: None
+		Constructor modifier: public
+
+		METHODS (java.lang.Object)
+		Method name: finalize
+		Method exception: class java.lang.Throwable
+		Method parameter type: None
+		Method return type: void
+		Method modifier: protected
+
+		Method name: wait
+		Method exception: class java.lang.InterruptedException
+		Method parameter type: long
+		Method parameter type: int
+		Method return type: void
+		Method modifier: public final
+
+		Method name: wait
+		Method exception: class java.lang.InterruptedException
+		Method parameter type: long
+		Method return type: void
+		Method modifier: public final native
+
+		Method name: wait
+		Method exception: class java.lang.InterruptedException
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public final
+
+		Method name: equals
+		Method exception: None
+		Method parameter type: class java.lang.Object
+		Method return type: boolean
+		Method modifier: public
+
+		Method name: toString
+		Method exception: None
+		Method parameter type: None
+		Method return type: class java.lang.String
+		Method modifier: public
+
+		Method name: hashCode
+		Method exception: None
+		Method parameter type: None
+		Method return type: int
+		Method modifier: public native
+
+		Method name: getClass
+		Method exception: None
+		Method parameter type: None
+		Method return type: class java.lang.Class
+		Method modifier: public final native
+
+		Method name: clone
+		Method exception: class java.lang.CloneNotSupportedException
+		Method parameter type: None
+		Method return type: class java.lang.Object
+		Method modifier: protected native
+
+		Method name: registerNatives
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: private static native
+
+		Method name: notify
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public final native
+
+		Method name: notifyAll
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public final native
+
+		FIELDS (java.lang.Object)
+		No field(s) found
+
+	INTERFACES (java.lang.String$CaseInsensitiveComparator)
+	Interface: interface java.util.Comparator
+
+		CLASS
+		Class: interface java.util.Comparator
+
+		SUPERCLASS (java.util.Comparator)
+		Superclass: null
+
+		INTERFACES (java.util.Comparator)
+		No interface(s) found
+
+		CONSTRUCTOR (java.util.Comparator)
+		No constructor(s) found
+
+		METHODS (java.util.Comparator)
+		Method name: equals
+		Method exception: None
+		Method parameter type: class java.lang.Object
+		Method return type: boolean
+		Method modifier: public abstract
+
+		Method name: compare
+		Method exception: None
+		Method parameter type: class java.lang.Object
+		Method parameter type: class java.lang.Object
+		Method return type: int
+		Method modifier: public abstract
+
+		Method name: reversed
+		Method exception: None
+		Method parameter type: None
+		Method return type: interface java.util.Comparator
+		Method modifier: public
+
+		Method name: thenComparing
+		Method exception: None
+		Method parameter type: interface java.util.function.Function
+		Method return type: interface java.util.Comparator
+		Method modifier: public
+
+		Method name: thenComparing
+		Method exception: None
+		Method parameter type: interface java.util.function.Function
+		Method parameter type: interface java.util.Comparator
+		Method return type: interface java.util.Comparator
+		Method modifier: public
+
+		Method name: thenComparing
+		Method exception: None
+		Method parameter type: interface java.util.Comparator
+		Method return type: interface java.util.Comparator
+		Method modifier: public
+
+		Method name: thenComparingInt
+		Method exception: None
+		Method parameter type: interface java.util.function.ToIntFunction
+		Method return type: interface java.util.Comparator
+		Method modifier: public
+
+		Method name: thenComparingLong
+		Method exception: None
+		Method parameter type: interface java.util.function.ToLongFunction
+		Method return type: interface java.util.Comparator
+		Method modifier: public
+
+		Method name: thenComparingDouble
+		Method exception: None
+		Method parameter type: interface java.util.function.ToDoubleFunction
+		Method return type: interface java.util.Comparator
+		Method modifier: public
+
+		Method name: reverseOrder
+		Method exception: None
+		Method parameter type: None
+		Method return type: interface java.util.Comparator
+		Method modifier: public static
+
+		Method name: naturalOrder
+		Method exception: None
+		Method parameter type: None
+		Method return type: interface java.util.Comparator
+		Method modifier: public static
+
+		Method name: nullsFirst
+		Method exception: None
+		Method parameter type: interface java.util.Comparator
+		Method return type: interface java.util.Comparator
+		Method modifier: public static
+
+		Method name: nullsLast
+		Method exception: None
+		Method parameter type: interface java.util.Comparator
+		Method return type: interface java.util.Comparator
+		Method modifier: public static
+
+		Method name: comparing
+		Method exception: None
+		Method parameter type: interface java.util.function.Function
+		Method parameter type: interface java.util.Comparator
+		Method return type: interface java.util.Comparator
+		Method modifier: public static
+
+		Method name: comparing
+		Method exception: None
+		Method parameter type: interface java.util.function.Function
+		Method return type: interface java.util.Comparator
+		Method modifier: public static
+
+		Method name: comparingInt
+		Method exception: None
+		Method parameter type: interface java.util.function.ToIntFunction
+		Method return type: interface java.util.Comparator
+		Method modifier: public static
+
+		Method name: comparingLong
+		Method exception: None
+		Method parameter type: interface java.util.function.ToLongFunction
+		Method return type: interface java.util.Comparator
+		Method modifier: public static
+
+		Method name: comparingDouble
+		Method exception: None
+		Method parameter type: interface java.util.function.ToDoubleFunction
+		Method return type: interface java.util.Comparator
+		Method modifier: public static
+
+		Method name: $deserializeLambda$
+		Method exception: None
+		Method parameter type: class java.lang.invoke.SerializedLambda
+		Method return type: class java.lang.Object
+		Method modifier: private static
+
+		Method name: lambda$comparingDouble$8dcf42ea$1
+		Method exception: None
+		Method parameter type: interface java.util.function.ToDoubleFunction
+		Method parameter type: class java.lang.Object
+		Method parameter type: class java.lang.Object
+		Method return type: int
+		Method modifier: private static
+
+		Method name: lambda$comparingLong$6043328a$1
+		Method exception: None
+		Method parameter type: interface java.util.function.ToLongFunction
+		Method parameter type: class java.lang.Object
+		Method parameter type: class java.lang.Object
+		Method return type: int
+		Method modifier: private static
+
+		Method name: lambda$comparingInt$7b0bb60$1
+		Method exception: None
+		Method parameter type: interface java.util.function.ToIntFunction
+		Method parameter type: class java.lang.Object
+		Method parameter type: class java.lang.Object
+		Method return type: int
+		Method modifier: private static
+
+		Method name: lambda$comparing$77a9974f$1
+		Method exception: None
+		Method parameter type: interface java.util.function.Function
+		Method parameter type: class java.lang.Object
+		Method parameter type: class java.lang.Object
+		Method return type: int
+		Method modifier: private static
+
+		Method name: lambda$comparing$ea9a8b3a$1
+		Method exception: None
+		Method parameter type: interface java.util.Comparator
+		Method parameter type: interface java.util.function.Function
+		Method parameter type: class java.lang.Object
+		Method parameter type: class java.lang.Object
+		Method return type: int
+		Method modifier: private static
+
+		Method name: lambda$thenComparing$36697e65$1
+		Method exception: None
+		Method parameter type: interface java.util.Comparator
+		Method parameter type: class java.lang.Object
+		Method parameter type: class java.lang.Object
+		Method return type: int
+		Method modifier: private
+
+		FIELDS (java.util.Comparator)
+		No field(s) found
+
+	Interface: interface java.io.Serializable
+
+		CLASS
+		Class: interface java.io.Serializable
+
+		SUPERCLASS (java.io.Serializable)
+		Superclass: null
+
+		INTERFACES (java.io.Serializable)
+		No interface(s) found
+
+		CONSTRUCTOR (java.io.Serializable)
+		No constructor(s) found
+
+		METHODS (java.io.Serializable)
+		No method(s) found
+
+		FIELDS (java.io.Serializable)
+		No field(s) found
+
+	CONSTRUCTOR (java.lang.String$CaseInsensitiveComparator)
+	Constructor name: java.lang.String$CaseInsensitiveComparator
+	Constructor parameter type: class java.lang.String$1
+	Constructor modifier: 
+
+	Constructor name: java.lang.String$CaseInsensitiveComparator
+	Constructor parameter type: None
+	Constructor modifier: private
+
+	METHODS (java.lang.String$CaseInsensitiveComparator)
+	Method name: compare
+	Method exception: None
+	Method parameter type: class java.lang.Object
+	Method parameter type: class java.lang.Object
+	Method return type: int
+	Method modifier: public volatile
+
+	Method name: compare
+	Method exception: None
+	Method parameter type: class java.lang.String
+	Method parameter type: class java.lang.String
+	Method return type: int
+	Method modifier: public
+
+	Method name: readResolve
+	Method exception: None
+	Method parameter type: None
+	Method return type: class java.lang.Object
+	Method modifier: private
+
+	FIELDS (java.lang.String$CaseInsensitiveComparator)
+	Field name: serialVersionUID
+	Field type: long
+	Field modifier: private static final
+	Field value: 8575799808933029326
+
+		CLASS
+		Class: long
+
+		SUPERCLASS (long)
+		Superclass: null
+
+		INTERFACES (long)
+		No interface(s) found
+
+		CONSTRUCTOR (long)
+		No constructor(s) found
+
+		METHODS (long)
+		No method(s) found
+
+		FIELDS (long)
+		No field(s) found
+
+======================================================

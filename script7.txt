@@ -1,0 +1,153 @@
+======================================================
+Filename: script7.txt
+Running Test: [[LClassB;@5a07e868
+Recursive: true
+
+CLASS
+Class: class [[LClassB;
+
+SUPERCLASS ([[LClassB;)
+Superclass: class java.lang.Object
+
+	CLASS
+	Class: class java.lang.Object
+
+	SUPERCLASS (java.lang.Object)
+	Superclass: null
+
+	INTERFACES (java.lang.Object)
+	No interface(s) found
+
+	CONSTRUCTOR (java.lang.Object)
+	Constructor name: java.lang.Object
+	Constructor parameter type: None
+	Constructor modifier: public
+
+	METHODS (java.lang.Object)
+	Method name: finalize
+	Method exception: class java.lang.Throwable
+	Method parameter type: None
+	Method return type: void
+	Method modifier: protected
+
+	Method name: wait
+	Method exception: class java.lang.InterruptedException
+	Method parameter type: long
+	Method parameter type: int
+	Method return type: void
+	Method modifier: public final
+
+	Method name: wait
+	Method exception: class java.lang.InterruptedException
+	Method parameter type: long
+	Method return type: void
+	Method modifier: public final native
+
+	Method name: wait
+	Method exception: class java.lang.InterruptedException
+	Method parameter type: None
+	Method return type: void
+	Method modifier: public final
+
+	Method name: equals
+	Method exception: None
+	Method parameter type: class java.lang.Object
+	Method return type: boolean
+	Method modifier: public
+
+	Method name: toString
+	Method exception: None
+	Method parameter type: None
+	Method return type: class java.lang.String
+	Method modifier: public
+
+	Method name: hashCode
+	Method exception: None
+	Method parameter type: None
+	Method return type: int
+	Method modifier: public native
+
+	Method name: getClass
+	Method exception: None
+	Method parameter type: None
+	Method return type: class java.lang.Class
+	Method modifier: public final native
+
+	Method name: clone
+	Method exception: class java.lang.CloneNotSupportedException
+	Method parameter type: None
+	Method return type: class java.lang.Object
+	Method modifier: protected native
+
+	Method name: registerNatives
+	Method exception: None
+	Method parameter type: None
+	Method return type: void
+	Method modifier: private static native
+
+	Method name: notify
+	Method exception: None
+	Method parameter type: None
+	Method return type: void
+	Method modifier: public final native
+
+	Method name: notifyAll
+	Method exception: None
+	Method parameter type: None
+	Method return type: void
+	Method modifier: public final native
+
+	FIELDS (java.lang.Object)
+	No field(s) found
+
+INTERFACES ([[LClassB;)
+Interface: interface java.lang.Cloneable
+
+	CLASS
+	Class: interface java.lang.Cloneable
+
+	SUPERCLASS (java.lang.Cloneable)
+	Superclass: null
+
+	INTERFACES (java.lang.Cloneable)
+	No interface(s) found
+
+	CONSTRUCTOR (java.lang.Cloneable)
+	No constructor(s) found
+
+	METHODS (java.lang.Cloneable)
+	No method(s) found
+
+	FIELDS (java.lang.Cloneable)
+	No field(s) found
+
+Interface: interface java.io.Serializable
+
+	CLASS
+	Class: interface java.io.Serializable
+
+	SUPERCLASS (java.io.Serializable)
+	Superclass: null
+
+	INTERFACES (java.io.Serializable)
+	No interface(s) found
+
+	CONSTRUCTOR (java.io.Serializable)
+	No constructor(s) found
+
+	METHODS (java.io.Serializable)
+	No method(s) found
+
+	FIELDS (java.io.Serializable)
+	No field(s) found
+
+CONSTRUCTOR ([[LClassB;)
+No constructor(s) found
+
+METHODS ([[LClassB;)
+No method(s) found
+
+FIELDS ([[LClassB;)
+No field(s) found
+
+======================================================

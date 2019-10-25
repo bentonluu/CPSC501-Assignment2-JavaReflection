@@ -1,0 +1,1896 @@
+======================================================
+Filename: script3.txt
+Running Test: ClassB
+Recursive: true
+
+CLASS
+Class: class ClassB
+
+SUPERCLASS (ClassB)
+Superclass: class ClassC
+
+	CLASS
+	Class: class ClassC
+
+	SUPERCLASS (ClassC)
+	Superclass: class ClassD
+
+		CLASS
+		Class: class ClassD
+
+		SUPERCLASS (ClassD)
+		Superclass: class java.lang.Object
+
+			CLASS
+			Class: class java.lang.Object
+
+			SUPERCLASS (java.lang.Object)
+			Superclass: null
+
+			INTERFACES (java.lang.Object)
+			No interface(s) found
+
+			CONSTRUCTOR (java.lang.Object)
+			Constructor name: java.lang.Object
+			Constructor parameter type: None
+			Constructor modifier: public
+
+			METHODS (java.lang.Object)
+			Method name: finalize
+			Method exception: class java.lang.Throwable
+			Method parameter type: None
+			Method return type: void
+			Method modifier: protected
+
+			Method name: wait
+			Method exception: class java.lang.InterruptedException
+			Method parameter type: long
+			Method parameter type: int
+			Method return type: void
+			Method modifier: public final
+
+			Method name: wait
+			Method exception: class java.lang.InterruptedException
+			Method parameter type: long
+			Method return type: void
+			Method modifier: public final native
+
+			Method name: wait
+			Method exception: class java.lang.InterruptedException
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public final
+
+			Method name: equals
+			Method exception: None
+			Method parameter type: class java.lang.Object
+			Method return type: boolean
+			Method modifier: public
+
+			Method name: toString
+			Method exception: None
+			Method parameter type: None
+			Method return type: class java.lang.String
+			Method modifier: public
+
+			Method name: hashCode
+			Method exception: None
+			Method parameter type: None
+			Method return type: int
+			Method modifier: public native
+
+			Method name: getClass
+			Method exception: None
+			Method parameter type: None
+			Method return type: class java.lang.Class
+			Method modifier: public final native
+
+			Method name: clone
+			Method exception: class java.lang.CloneNotSupportedException
+			Method parameter type: None
+			Method return type: class java.lang.Object
+			Method modifier: protected native
+
+			Method name: registerNatives
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: private static native
+
+			Method name: notify
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public final native
+
+			Method name: notifyAll
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public final native
+
+			FIELDS (java.lang.Object)
+			No field(s) found
+
+		INTERFACES (ClassD)
+		No interface(s) found
+
+		CONSTRUCTOR (ClassD)
+		Constructor name: ClassD
+		Constructor parameter type: None
+		Constructor modifier: public
+
+		Constructor name: ClassD
+		Constructor parameter type: int
+		Constructor modifier: public
+
+		METHODS (ClassD)
+		Method name: toString
+		Method exception: None
+		Method parameter type: None
+		Method return type: class java.lang.String
+		Method modifier: public
+
+		Method name: getVal3
+		Method exception: None
+		Method parameter type: None
+		Method return type: int
+		Method modifier: public
+
+		FIELDS (ClassD)
+		Field name: val
+		Field type: class ClassA
+		Field modifier: private
+		Field value (obj ref): ClassA@723074861
+
+			CLASS
+			Class: class ClassA
+
+			SUPERCLASS (ClassA)
+			Superclass: class java.lang.Object
+
+				CLASS
+				Class: class java.lang.Object
+
+				SUPERCLASS (java.lang.Object)
+				Superclass: null
+
+				INTERFACES (java.lang.Object)
+				No interface(s) found
+
+				CONSTRUCTOR (java.lang.Object)
+				Constructor name: java.lang.Object
+				Constructor parameter type: None
+				Constructor modifier: public
+
+				METHODS (java.lang.Object)
+				Method name: finalize
+				Method exception: class java.lang.Throwable
+				Method parameter type: None
+				Method return type: void
+				Method modifier: protected
+
+				Method name: wait
+				Method exception: class java.lang.InterruptedException
+				Method parameter type: long
+				Method parameter type: int
+				Method return type: void
+				Method modifier: public final
+
+				Method name: wait
+				Method exception: class java.lang.InterruptedException
+				Method parameter type: long
+				Method return type: void
+				Method modifier: public final native
+
+				Method name: wait
+				Method exception: class java.lang.InterruptedException
+				Method parameter type: None
+				Method return type: void
+				Method modifier: public final
+
+				Method name: equals
+				Method exception: None
+				Method parameter type: class java.lang.Object
+				Method return type: boolean
+				Method modifier: public
+
+				Method name: toString
+				Method exception: None
+				Method parameter type: None
+				Method return type: class java.lang.String
+				Method modifier: public
+
+				Method name: hashCode
+				Method exception: None
+				Method parameter type: None
+				Method return type: int
+				Method modifier: public native
+
+				Method name: getClass
+				Method exception: None
+				Method parameter type: None
+				Method return type: class java.lang.Class
+				Method modifier: public final native
+
+				Method name: clone
+				Method exception: class java.lang.CloneNotSupportedException
+				Method parameter type: None
+				Method return type: class java.lang.Object
+				Method modifier: protected native
+
+				Method name: registerNatives
+				Method exception: None
+				Method parameter type: None
+				Method return type: void
+				Method modifier: private static native
+
+				Method name: notify
+				Method exception: None
+				Method parameter type: None
+				Method return type: void
+				Method modifier: public final native
+
+				Method name: notifyAll
+				Method exception: None
+				Method parameter type: None
+				Method return type: void
+				Method modifier: public final native
+
+				FIELDS (java.lang.Object)
+				No field(s) found
+
+			INTERFACES (ClassA)
+			Interface: interface java.io.Serializable
+
+				CLASS
+				Class: interface java.io.Serializable
+
+				SUPERCLASS (java.io.Serializable)
+				Superclass: null
+
+				INTERFACES (java.io.Serializable)
+				No interface(s) found
+
+				CONSTRUCTOR (java.io.Serializable)
+				No constructor(s) found
+
+				METHODS (java.io.Serializable)
+				No method(s) found
+
+				FIELDS (java.io.Serializable)
+				No field(s) found
+
+			Interface: interface java.lang.Runnable
+
+				CLASS
+				Class: interface java.lang.Runnable
+
+				SUPERCLASS (java.lang.Runnable)
+				Superclass: null
+
+				INTERFACES (java.lang.Runnable)
+				No interface(s) found
+
+				CONSTRUCTOR (java.lang.Runnable)
+				No constructor(s) found
+
+				METHODS (java.lang.Runnable)
+				Method name: run
+				Method exception: None
+				Method parameter type: None
+				Method return type: void
+				Method modifier: public abstract
+
+				FIELDS (java.lang.Runnable)
+				No field(s) found
+
+			CONSTRUCTOR (ClassA)
+			Constructor name: ClassA
+			Constructor parameter type: None
+			Constructor modifier: public
+
+			Constructor name: ClassA
+			Constructor parameter type: int
+			Constructor modifier: public
+
+			METHODS (ClassA)
+			Method name: run
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public
+
+			Method name: toString
+			Method exception: None
+			Method parameter type: None
+			Method return type: class java.lang.String
+			Method modifier: public
+
+			Method name: setVal
+			Method exception: class java.lang.Exception
+			Method parameter type: int
+			Method return type: void
+			Method modifier: public
+
+			Method name: getVal
+			Method exception: None
+			Method parameter type: None
+			Method return type: int
+			Method modifier: public
+
+			Method name: printSomething
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: private
+
+			FIELDS (ClassA)
+			Field name: val
+			Field type: int
+			Field modifier: private
+			Field value: 17
+
+				CLASS
+				Class: int
+
+				SUPERCLASS (int)
+				Superclass: null
+
+				INTERFACES (int)
+				No interface(s) found
+
+				CONSTRUCTOR (int)
+				No constructor(s) found
+
+				METHODS (int)
+				No method(s) found
+
+				FIELDS (int)
+				No field(s) found
+
+			Field name: val2
+			Field type: double
+			Field modifier: private
+			Field value: 0.2
+
+				CLASS
+				Class: double
+
+				SUPERCLASS (double)
+				Superclass: null
+
+				INTERFACES (double)
+				No interface(s) found
+
+				CONSTRUCTOR (double)
+				No constructor(s) found
+
+				METHODS (double)
+				No method(s) found
+
+				FIELDS (double)
+				No field(s) found
+
+			Field name: val3
+			Field type: boolean
+			Field modifier: private
+			Field value: true
+
+				CLASS
+				Class: boolean
+
+				SUPERCLASS (boolean)
+				Superclass: null
+
+				INTERFACES (boolean)
+				No interface(s) found
+
+				CONSTRUCTOR (boolean)
+				No constructor(s) found
+
+				METHODS (boolean)
+				No method(s) found
+
+				FIELDS (boolean)
+				No field(s) found
+
+		Field name: val2
+		Field type: class ClassA
+		Field modifier: private static
+		Field value: null
+
+		Field name: val3
+		Field type: int
+		Field modifier: private
+		Field value: 34
+
+			CLASS
+			Class: int
+
+			SUPERCLASS (int)
+			Superclass: null
+
+			INTERFACES (int)
+			No interface(s) found
+
+			CONSTRUCTOR (int)
+			No constructor(s) found
+
+			METHODS (int)
+			No method(s) found
+
+			FIELDS (int)
+			No field(s) found
+
+		Field name: vallarray
+		Field type: class [LClassA;
+		Field modifier: private
+		Component type: class ClassA
+		Array length: 10
+		--- Array content --- 
+		Array content value (0): null
+		Array content value (1): null
+		Array content value (2): null
+		Array content value (3): null
+		Array content value (4): null
+		Array content value (5): null
+		Array content value (6): null
+		Array content value (7): null
+		Array content value (8): null
+		Array content value (9): null
+
+	INTERFACES (ClassC)
+	Interface: interface InterfaceA
+
+		CLASS
+		Class: interface InterfaceA
+
+		SUPERCLASS (InterfaceA)
+		Superclass: null
+
+		INTERFACES (InterfaceA)
+		Interface: interface InterfaceB
+
+			CLASS
+			Class: interface InterfaceB
+
+			SUPERCLASS (InterfaceB)
+			Superclass: null
+
+			INTERFACES (InterfaceB)
+			No interface(s) found
+
+			CONSTRUCTOR (InterfaceB)
+			No constructor(s) found
+
+			METHODS (InterfaceB)
+			Method name: func0
+			Method exception: class java.lang.Exception
+			Method parameter type: int
+			Method parameter type: boolean
+			Method return type: void
+			Method modifier: public abstract
+
+			FIELDS (InterfaceB)
+			No field(s) found
+
+		CONSTRUCTOR (InterfaceA)
+		No constructor(s) found
+
+		METHODS (InterfaceA)
+		Method name: func1
+		Method exception: class java.lang.Exception
+		Method parameter type: int
+		Method parameter type: double
+		Method parameter type: boolean
+		Method parameter type: class java.lang.String
+		Method return type: void
+		Method modifier: public abstract
+
+		Method name: func2
+		Method exception: class java.lang.Exception
+		Method exception: class java.lang.ArithmeticException
+		Method exception: class java.lang.IllegalMonitorStateException
+		Method parameter type: class java.lang.String
+		Method return type: int
+		Method modifier: public abstract
+
+		FIELDS (InterfaceA)
+		No field(s) found
+
+	CONSTRUCTOR (ClassC)
+	Constructor name: ClassC
+	Constructor parameter type: None
+	Constructor modifier: public
+
+	Constructor name: ClassC
+	Constructor parameter type: int
+	Constructor parameter type: int
+	Constructor modifier: public
+
+	METHODS (ClassC)
+	Method name: run
+	Method exception: None
+	Method parameter type: None
+	Method return type: void
+	Method modifier: public
+
+	Method name: toString
+	Method exception: None
+	Method parameter type: None
+	Method return type: class java.lang.String
+	Method modifier: public
+
+	Method name: func3
+	Method exception: None
+	Method parameter type: int
+	Method return type: void
+	Method modifier: public abstract
+
+	Method name: func0
+	Method exception: class java.lang.Exception
+	Method parameter type: int
+	Method parameter type: boolean
+	Method return type: void
+	Method modifier: public
+
+	Method name: func1
+	Method exception: class java.lang.Exception
+	Method parameter type: int
+	Method parameter type: double
+	Method parameter type: boolean
+	Method parameter type: class java.lang.String
+	Method return type: void
+	Method modifier: public
+
+	Method name: func2
+	Method exception: class java.lang.Exception
+	Method exception: class java.lang.ArithmeticException
+	Method exception: class java.lang.IllegalMonitorStateException
+	Method parameter type: class java.lang.String
+	Method return type: int
+	Method modifier: public
+
+	FIELDS (ClassC)
+	Field name: val2
+	Field type: class ClassA
+	Field modifier: private
+	Field value (obj ref): ClassA@929338653
+
+		CLASS
+		Class: class ClassA
+
+		SUPERCLASS (ClassA)
+		Superclass: class java.lang.Object
+
+			CLASS
+			Class: class java.lang.Object
+
+			SUPERCLASS (java.lang.Object)
+			Superclass: null
+
+			INTERFACES (java.lang.Object)
+			No interface(s) found
+
+			CONSTRUCTOR (java.lang.Object)
+			Constructor name: java.lang.Object
+			Constructor parameter type: None
+			Constructor modifier: public
+
+			METHODS (java.lang.Object)
+			Method name: finalize
+			Method exception: class java.lang.Throwable
+			Method parameter type: None
+			Method return type: void
+			Method modifier: protected
+
+			Method name: wait
+			Method exception: class java.lang.InterruptedException
+			Method parameter type: long
+			Method parameter type: int
+			Method return type: void
+			Method modifier: public final
+
+			Method name: wait
+			Method exception: class java.lang.InterruptedException
+			Method parameter type: long
+			Method return type: void
+			Method modifier: public final native
+
+			Method name: wait
+			Method exception: class java.lang.InterruptedException
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public final
+
+			Method name: equals
+			Method exception: None
+			Method parameter type: class java.lang.Object
+			Method return type: boolean
+			Method modifier: public
+
+			Method name: toString
+			Method exception: None
+			Method parameter type: None
+			Method return type: class java.lang.String
+			Method modifier: public
+
+			Method name: hashCode
+			Method exception: None
+			Method parameter type: None
+			Method return type: int
+			Method modifier: public native
+
+			Method name: getClass
+			Method exception: None
+			Method parameter type: None
+			Method return type: class java.lang.Class
+			Method modifier: public final native
+
+			Method name: clone
+			Method exception: class java.lang.CloneNotSupportedException
+			Method parameter type: None
+			Method return type: class java.lang.Object
+			Method modifier: protected native
+
+			Method name: registerNatives
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: private static native
+
+			Method name: notify
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public final native
+
+			Method name: notifyAll
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public final native
+
+			FIELDS (java.lang.Object)
+			No field(s) found
+
+		INTERFACES (ClassA)
+		Interface: interface java.io.Serializable
+
+			CLASS
+			Class: interface java.io.Serializable
+
+			SUPERCLASS (java.io.Serializable)
+			Superclass: null
+
+			INTERFACES (java.io.Serializable)
+			No interface(s) found
+
+			CONSTRUCTOR (java.io.Serializable)
+			No constructor(s) found
+
+			METHODS (java.io.Serializable)
+			No method(s) found
+
+			FIELDS (java.io.Serializable)
+			No field(s) found
+
+		Interface: interface java.lang.Runnable
+
+			CLASS
+			Class: interface java.lang.Runnable
+
+			SUPERCLASS (java.lang.Runnable)
+			Superclass: null
+
+			INTERFACES (java.lang.Runnable)
+			No interface(s) found
+
+			CONSTRUCTOR (java.lang.Runnable)
+			No constructor(s) found
+
+			METHODS (java.lang.Runnable)
+			Method name: run
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public abstract
+
+			FIELDS (java.lang.Runnable)
+			No field(s) found
+
+		CONSTRUCTOR (ClassA)
+		Constructor name: ClassA
+		Constructor parameter type: None
+		Constructor modifier: public
+
+		Constructor name: ClassA
+		Constructor parameter type: int
+		Constructor modifier: public
+
+		METHODS (ClassA)
+		Method name: run
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public
+
+		Method name: toString
+		Method exception: None
+		Method parameter type: None
+		Method return type: class java.lang.String
+		Method modifier: public
+
+		Method name: setVal
+		Method exception: class java.lang.Exception
+		Method parameter type: int
+		Method return type: void
+		Method modifier: public
+
+		Method name: getVal
+		Method exception: None
+		Method parameter type: None
+		Method return type: int
+		Method modifier: public
+
+		Method name: printSomething
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: private
+
+		FIELDS (ClassA)
+		Field name: val
+		Field type: int
+		Field modifier: private
+		Field value: 100
+
+			CLASS
+			Class: int
+
+			SUPERCLASS (int)
+			Superclass: null
+
+			INTERFACES (int)
+			No interface(s) found
+
+			CONSTRUCTOR (int)
+			No constructor(s) found
+
+			METHODS (int)
+			No method(s) found
+
+			FIELDS (int)
+			No field(s) found
+
+		Field name: val2
+		Field type: double
+		Field modifier: private
+		Field value: 0.2
+
+			CLASS
+			Class: double
+
+			SUPERCLASS (double)
+			Superclass: null
+
+			INTERFACES (double)
+			No interface(s) found
+
+			CONSTRUCTOR (double)
+			No constructor(s) found
+
+			METHODS (double)
+			No method(s) found
+
+			FIELDS (double)
+			No field(s) found
+
+		Field name: val3
+		Field type: boolean
+		Field modifier: private
+		Field value: true
+
+			CLASS
+			Class: boolean
+
+			SUPERCLASS (boolean)
+			Superclass: null
+
+			INTERFACES (boolean)
+			No interface(s) found
+
+			CONSTRUCTOR (boolean)
+			No constructor(s) found
+
+			METHODS (boolean)
+			No method(s) found
+
+			FIELDS (boolean)
+			No field(s) found
+
+	Field name: val3
+	Field type: class ClassA
+	Field modifier: private
+	Field value (obj ref): ClassA@1259475182
+
+		CLASS
+		Class: class ClassA
+
+		SUPERCLASS (ClassA)
+		Superclass: class java.lang.Object
+
+			CLASS
+			Class: class java.lang.Object
+
+			SUPERCLASS (java.lang.Object)
+			Superclass: null
+
+			INTERFACES (java.lang.Object)
+			No interface(s) found
+
+			CONSTRUCTOR (java.lang.Object)
+			Constructor name: java.lang.Object
+			Constructor parameter type: None
+			Constructor modifier: public
+
+			METHODS (java.lang.Object)
+			Method name: finalize
+			Method exception: class java.lang.Throwable
+			Method parameter type: None
+			Method return type: void
+			Method modifier: protected
+
+			Method name: wait
+			Method exception: class java.lang.InterruptedException
+			Method parameter type: long
+			Method parameter type: int
+			Method return type: void
+			Method modifier: public final
+
+			Method name: wait
+			Method exception: class java.lang.InterruptedException
+			Method parameter type: long
+			Method return type: void
+			Method modifier: public final native
+
+			Method name: wait
+			Method exception: class java.lang.InterruptedException
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public final
+
+			Method name: equals
+			Method exception: None
+			Method parameter type: class java.lang.Object
+			Method return type: boolean
+			Method modifier: public
+
+			Method name: toString
+			Method exception: None
+			Method parameter type: None
+			Method return type: class java.lang.String
+			Method modifier: public
+
+			Method name: hashCode
+			Method exception: None
+			Method parameter type: None
+			Method return type: int
+			Method modifier: public native
+
+			Method name: getClass
+			Method exception: None
+			Method parameter type: None
+			Method return type: class java.lang.Class
+			Method modifier: public final native
+
+			Method name: clone
+			Method exception: class java.lang.CloneNotSupportedException
+			Method parameter type: None
+			Method return type: class java.lang.Object
+			Method modifier: protected native
+
+			Method name: registerNatives
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: private static native
+
+			Method name: notify
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public final native
+
+			Method name: notifyAll
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public final native
+
+			FIELDS (java.lang.Object)
+			No field(s) found
+
+		INTERFACES (ClassA)
+		Interface: interface java.io.Serializable
+
+			CLASS
+			Class: interface java.io.Serializable
+
+			SUPERCLASS (java.io.Serializable)
+			Superclass: null
+
+			INTERFACES (java.io.Serializable)
+			No interface(s) found
+
+			CONSTRUCTOR (java.io.Serializable)
+			No constructor(s) found
+
+			METHODS (java.io.Serializable)
+			No method(s) found
+
+			FIELDS (java.io.Serializable)
+			No field(s) found
+
+		Interface: interface java.lang.Runnable
+
+			CLASS
+			Class: interface java.lang.Runnable
+
+			SUPERCLASS (java.lang.Runnable)
+			Superclass: null
+
+			INTERFACES (java.lang.Runnable)
+			No interface(s) found
+
+			CONSTRUCTOR (java.lang.Runnable)
+			No constructor(s) found
+
+			METHODS (java.lang.Runnable)
+			Method name: run
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public abstract
+
+			FIELDS (java.lang.Runnable)
+			No field(s) found
+
+		CONSTRUCTOR (ClassA)
+		Constructor name: ClassA
+		Constructor parameter type: None
+		Constructor modifier: public
+
+		Constructor name: ClassA
+		Constructor parameter type: int
+		Constructor modifier: public
+
+		METHODS (ClassA)
+		Method name: run
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public
+
+		Method name: toString
+		Method exception: None
+		Method parameter type: None
+		Method return type: class java.lang.String
+		Method modifier: public
+
+		Method name: setVal
+		Method exception: class java.lang.Exception
+		Method parameter type: int
+		Method return type: void
+		Method modifier: public
+
+		Method name: getVal
+		Method exception: None
+		Method parameter type: None
+		Method return type: int
+		Method modifier: public
+
+		Method name: printSomething
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: private
+
+		FIELDS (ClassA)
+		Field name: val
+		Field type: int
+		Field modifier: private
+		Field value: 2
+
+			CLASS
+			Class: int
+
+			SUPERCLASS (int)
+			Superclass: null
+
+			INTERFACES (int)
+			No interface(s) found
+
+			CONSTRUCTOR (int)
+			No constructor(s) found
+
+			METHODS (int)
+			No method(s) found
+
+			FIELDS (int)
+			No field(s) found
+
+		Field name: val2
+		Field type: double
+		Field modifier: private
+		Field value: 0.2
+
+			CLASS
+			Class: double
+
+			SUPERCLASS (double)
+			Superclass: null
+
+			INTERFACES (double)
+			No interface(s) found
+
+			CONSTRUCTOR (double)
+			No constructor(s) found
+
+			METHODS (double)
+			No method(s) found
+
+			FIELDS (double)
+			No field(s) found
+
+		Field name: val3
+		Field type: boolean
+		Field modifier: private
+		Field value: true
+
+			CLASS
+			Class: boolean
+
+			SUPERCLASS (boolean)
+			Superclass: null
+
+			INTERFACES (boolean)
+			No interface(s) found
+
+			CONSTRUCTOR (boolean)
+			No constructor(s) found
+
+			METHODS (boolean)
+			No method(s) found
+
+			FIELDS (boolean)
+			No field(s) found
+
+	Field name: val4
+	Field type: class ClassA
+	Field modifier: private
+	Field value (obj ref): ClassA@1300109446
+
+		CLASS
+		Class: class ClassA
+
+		SUPERCLASS (ClassA)
+		Superclass: class java.lang.Object
+
+			CLASS
+			Class: class java.lang.Object
+
+			SUPERCLASS (java.lang.Object)
+			Superclass: null
+
+			INTERFACES (java.lang.Object)
+			No interface(s) found
+
+			CONSTRUCTOR (java.lang.Object)
+			Constructor name: java.lang.Object
+			Constructor parameter type: None
+			Constructor modifier: public
+
+			METHODS (java.lang.Object)
+			Method name: finalize
+			Method exception: class java.lang.Throwable
+			Method parameter type: None
+			Method return type: void
+			Method modifier: protected
+
+			Method name: wait
+			Method exception: class java.lang.InterruptedException
+			Method parameter type: long
+			Method parameter type: int
+			Method return type: void
+			Method modifier: public final
+
+			Method name: wait
+			Method exception: class java.lang.InterruptedException
+			Method parameter type: long
+			Method return type: void
+			Method modifier: public final native
+
+			Method name: wait
+			Method exception: class java.lang.InterruptedException
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public final
+
+			Method name: equals
+			Method exception: None
+			Method parameter type: class java.lang.Object
+			Method return type: boolean
+			Method modifier: public
+
+			Method name: toString
+			Method exception: None
+			Method parameter type: None
+			Method return type: class java.lang.String
+			Method modifier: public
+
+			Method name: hashCode
+			Method exception: None
+			Method parameter type: None
+			Method return type: int
+			Method modifier: public native
+
+			Method name: getClass
+			Method exception: None
+			Method parameter type: None
+			Method return type: class java.lang.Class
+			Method modifier: public final native
+
+			Method name: clone
+			Method exception: class java.lang.CloneNotSupportedException
+			Method parameter type: None
+			Method return type: class java.lang.Object
+			Method modifier: protected native
+
+			Method name: registerNatives
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: private static native
+
+			Method name: notify
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public final native
+
+			Method name: notifyAll
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public final native
+
+			FIELDS (java.lang.Object)
+			No field(s) found
+
+		INTERFACES (ClassA)
+		Interface: interface java.io.Serializable
+
+			CLASS
+			Class: interface java.io.Serializable
+
+			SUPERCLASS (java.io.Serializable)
+			Superclass: null
+
+			INTERFACES (java.io.Serializable)
+			No interface(s) found
+
+			CONSTRUCTOR (java.io.Serializable)
+			No constructor(s) found
+
+			METHODS (java.io.Serializable)
+			No method(s) found
+
+			FIELDS (java.io.Serializable)
+			No field(s) found
+
+		Interface: interface java.lang.Runnable
+
+			CLASS
+			Class: interface java.lang.Runnable
+
+			SUPERCLASS (java.lang.Runnable)
+			Superclass: null
+
+			INTERFACES (java.lang.Runnable)
+			No interface(s) found
+
+			CONSTRUCTOR (java.lang.Runnable)
+			No constructor(s) found
+
+			METHODS (java.lang.Runnable)
+			Method name: run
+			Method exception: None
+			Method parameter type: None
+			Method return type: void
+			Method modifier: public abstract
+
+			FIELDS (java.lang.Runnable)
+			No field(s) found
+
+		CONSTRUCTOR (ClassA)
+		Constructor name: ClassA
+		Constructor parameter type: None
+		Constructor modifier: public
+
+		Constructor name: ClassA
+		Constructor parameter type: int
+		Constructor modifier: public
+
+		METHODS (ClassA)
+		Method name: run
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public
+
+		Method name: toString
+		Method exception: None
+		Method parameter type: None
+		Method return type: class java.lang.String
+		Method modifier: public
+
+		Method name: setVal
+		Method exception: class java.lang.Exception
+		Method parameter type: int
+		Method return type: void
+		Method modifier: public
+
+		Method name: getVal
+		Method exception: None
+		Method parameter type: None
+		Method return type: int
+		Method modifier: public
+
+		Method name: printSomething
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: private
+
+		FIELDS (ClassA)
+		Field name: val
+		Field type: int
+		Field modifier: private
+		Field value: 3
+
+			CLASS
+			Class: int
+
+			SUPERCLASS (int)
+			Superclass: null
+
+			INTERFACES (int)
+			No interface(s) found
+
+			CONSTRUCTOR (int)
+			No constructor(s) found
+
+			METHODS (int)
+			No method(s) found
+
+			FIELDS (int)
+			No field(s) found
+
+		Field name: val2
+		Field type: double
+		Field modifier: private
+		Field value: 0.2
+
+			CLASS
+			Class: double
+
+			SUPERCLASS (double)
+			Superclass: null
+
+			INTERFACES (double)
+			No interface(s) found
+
+			CONSTRUCTOR (double)
+			No constructor(s) found
+
+			METHODS (double)
+			No method(s) found
+
+			FIELDS (double)
+			No field(s) found
+
+		Field name: val3
+		Field type: boolean
+		Field modifier: private
+		Field value: true
+
+			CLASS
+			Class: boolean
+
+			SUPERCLASS (boolean)
+			Superclass: null
+
+			INTERFACES (boolean)
+			No interface(s) found
+
+			CONSTRUCTOR (boolean)
+			No constructor(s) found
+
+			METHODS (boolean)
+			No method(s) found
+
+			FIELDS (boolean)
+			No field(s) found
+
+INTERFACES (ClassB)
+Interface: interface java.lang.Runnable
+
+	CLASS
+	Class: interface java.lang.Runnable
+
+	SUPERCLASS (java.lang.Runnable)
+	Superclass: null
+
+	INTERFACES (java.lang.Runnable)
+	No interface(s) found
+
+	CONSTRUCTOR (java.lang.Runnable)
+	No constructor(s) found
+
+	METHODS (java.lang.Runnable)
+	Method name: run
+	Method exception: None
+	Method parameter type: None
+	Method return type: void
+	Method modifier: public abstract
+
+	FIELDS (java.lang.Runnable)
+	No field(s) found
+
+CONSTRUCTOR (ClassB)
+Constructor name: ClassB
+Constructor parameter type: None
+Constructor modifier: public
+
+METHODS (ClassB)
+Method name: run
+Method exception: None
+Method parameter type: None
+Method return type: void
+Method modifier: public
+
+Method name: toString
+Method exception: None
+Method parameter type: None
+Method return type: class java.lang.String
+Method modifier: public
+
+Method name: func3
+Method exception: None
+Method parameter type: int
+Method return type: void
+Method modifier: public
+
+FIELDS (ClassB)
+Field name: val
+Field type: class ClassA
+Field modifier: private
+Field value (obj ref): ClassA@789451787
+
+	CLASS
+	Class: class ClassA
+
+	SUPERCLASS (ClassA)
+	Superclass: class java.lang.Object
+
+		CLASS
+		Class: class java.lang.Object
+
+		SUPERCLASS (java.lang.Object)
+		Superclass: null
+
+		INTERFACES (java.lang.Object)
+		No interface(s) found
+
+		CONSTRUCTOR (java.lang.Object)
+		Constructor name: java.lang.Object
+		Constructor parameter type: None
+		Constructor modifier: public
+
+		METHODS (java.lang.Object)
+		Method name: finalize
+		Method exception: class java.lang.Throwable
+		Method parameter type: None
+		Method return type: void
+		Method modifier: protected
+
+		Method name: wait
+		Method exception: class java.lang.InterruptedException
+		Method parameter type: long
+		Method parameter type: int
+		Method return type: void
+		Method modifier: public final
+
+		Method name: wait
+		Method exception: class java.lang.InterruptedException
+		Method parameter type: long
+		Method return type: void
+		Method modifier: public final native
+
+		Method name: wait
+		Method exception: class java.lang.InterruptedException
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public final
+
+		Method name: equals
+		Method exception: None
+		Method parameter type: class java.lang.Object
+		Method return type: boolean
+		Method modifier: public
+
+		Method name: toString
+		Method exception: None
+		Method parameter type: None
+		Method return type: class java.lang.String
+		Method modifier: public
+
+		Method name: hashCode
+		Method exception: None
+		Method parameter type: None
+		Method return type: int
+		Method modifier: public native
+
+		Method name: getClass
+		Method exception: None
+		Method parameter type: None
+		Method return type: class java.lang.Class
+		Method modifier: public final native
+
+		Method name: clone
+		Method exception: class java.lang.CloneNotSupportedException
+		Method parameter type: None
+		Method return type: class java.lang.Object
+		Method modifier: protected native
+
+		Method name: registerNatives
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: private static native
+
+		Method name: notify
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public final native
+
+		Method name: notifyAll
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public final native
+
+		FIELDS (java.lang.Object)
+		No field(s) found
+
+	INTERFACES (ClassA)
+	Interface: interface java.io.Serializable
+
+		CLASS
+		Class: interface java.io.Serializable
+
+		SUPERCLASS (java.io.Serializable)
+		Superclass: null
+
+		INTERFACES (java.io.Serializable)
+		No interface(s) found
+
+		CONSTRUCTOR (java.io.Serializable)
+		No constructor(s) found
+
+		METHODS (java.io.Serializable)
+		No method(s) found
+
+		FIELDS (java.io.Serializable)
+		No field(s) found
+
+	Interface: interface java.lang.Runnable
+
+		CLASS
+		Class: interface java.lang.Runnable
+
+		SUPERCLASS (java.lang.Runnable)
+		Superclass: null
+
+		INTERFACES (java.lang.Runnable)
+		No interface(s) found
+
+		CONSTRUCTOR (java.lang.Runnable)
+		No constructor(s) found
+
+		METHODS (java.lang.Runnable)
+		Method name: run
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public abstract
+
+		FIELDS (java.lang.Runnable)
+		No field(s) found
+
+	CONSTRUCTOR (ClassA)
+	Constructor name: ClassA
+	Constructor parameter type: None
+	Constructor modifier: public
+
+	Constructor name: ClassA
+	Constructor parameter type: int
+	Constructor modifier: public
+
+	METHODS (ClassA)
+	Method name: run
+	Method exception: None
+	Method parameter type: None
+	Method return type: void
+	Method modifier: public
+
+	Method name: toString
+	Method exception: None
+	Method parameter type: None
+	Method return type: class java.lang.String
+	Method modifier: public
+
+	Method name: setVal
+	Method exception: class java.lang.Exception
+	Method parameter type: int
+	Method return type: void
+	Method modifier: public
+
+	Method name: getVal
+	Method exception: None
+	Method parameter type: None
+	Method return type: int
+	Method modifier: public
+
+	Method name: printSomething
+	Method exception: None
+	Method parameter type: None
+	Method return type: void
+	Method modifier: private
+
+	FIELDS (ClassA)
+	Field name: val
+	Field type: int
+	Field modifier: private
+	Field value: 3
+
+		CLASS
+		Class: int
+
+		SUPERCLASS (int)
+		Superclass: null
+
+		INTERFACES (int)
+		No interface(s) found
+
+		CONSTRUCTOR (int)
+		No constructor(s) found
+
+		METHODS (int)
+		No method(s) found
+
+		FIELDS (int)
+		No field(s) found
+
+	Field name: val2
+	Field type: double
+	Field modifier: private
+	Field value: 0.2
+
+		CLASS
+		Class: double
+
+		SUPERCLASS (double)
+		Superclass: null
+
+		INTERFACES (double)
+		No interface(s) found
+
+		CONSTRUCTOR (double)
+		No constructor(s) found
+
+		METHODS (double)
+		No method(s) found
+
+		FIELDS (double)
+		No field(s) found
+
+	Field name: val3
+	Field type: boolean
+	Field modifier: private
+	Field value: true
+
+		CLASS
+		Class: boolean
+
+		SUPERCLASS (boolean)
+		Superclass: null
+
+		INTERFACES (boolean)
+		No interface(s) found
+
+		CONSTRUCTOR (boolean)
+		No constructor(s) found
+
+		METHODS (boolean)
+		No method(s) found
+
+		FIELDS (boolean)
+		No field(s) found
+
+Field name: val2
+Field type: class ClassA
+Field modifier: private
+Field value (obj ref): ClassA@1950409828
+
+	CLASS
+	Class: class ClassA
+
+	SUPERCLASS (ClassA)
+	Superclass: class java.lang.Object
+
+		CLASS
+		Class: class java.lang.Object
+
+		SUPERCLASS (java.lang.Object)
+		Superclass: null
+
+		INTERFACES (java.lang.Object)
+		No interface(s) found
+
+		CONSTRUCTOR (java.lang.Object)
+		Constructor name: java.lang.Object
+		Constructor parameter type: None
+		Constructor modifier: public
+
+		METHODS (java.lang.Object)
+		Method name: finalize
+		Method exception: class java.lang.Throwable
+		Method parameter type: None
+		Method return type: void
+		Method modifier: protected
+
+		Method name: wait
+		Method exception: class java.lang.InterruptedException
+		Method parameter type: long
+		Method parameter type: int
+		Method return type: void
+		Method modifier: public final
+
+		Method name: wait
+		Method exception: class java.lang.InterruptedException
+		Method parameter type: long
+		Method return type: void
+		Method modifier: public final native
+
+		Method name: wait
+		Method exception: class java.lang.InterruptedException
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public final
+
+		Method name: equals
+		Method exception: None
+		Method parameter type: class java.lang.Object
+		Method return type: boolean
+		Method modifier: public
+
+		Method name: toString
+		Method exception: None
+		Method parameter type: None
+		Method return type: class java.lang.String
+		Method modifier: public
+
+		Method name: hashCode
+		Method exception: None
+		Method parameter type: None
+		Method return type: int
+		Method modifier: public native
+
+		Method name: getClass
+		Method exception: None
+		Method parameter type: None
+		Method return type: class java.lang.Class
+		Method modifier: public final native
+
+		Method name: clone
+		Method exception: class java.lang.CloneNotSupportedException
+		Method parameter type: None
+		Method return type: class java.lang.Object
+		Method modifier: protected native
+
+		Method name: registerNatives
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: private static native
+
+		Method name: notify
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public final native
+
+		Method name: notifyAll
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public final native
+
+		FIELDS (java.lang.Object)
+		No field(s) found
+
+	INTERFACES (ClassA)
+	Interface: interface java.io.Serializable
+
+		CLASS
+		Class: interface java.io.Serializable
+
+		SUPERCLASS (java.io.Serializable)
+		Superclass: null
+
+		INTERFACES (java.io.Serializable)
+		No interface(s) found
+
+		CONSTRUCTOR (java.io.Serializable)
+		No constructor(s) found
+
+		METHODS (java.io.Serializable)
+		No method(s) found
+
+		FIELDS (java.io.Serializable)
+		No field(s) found
+
+	Interface: interface java.lang.Runnable
+
+		CLASS
+		Class: interface java.lang.Runnable
+
+		SUPERCLASS (java.lang.Runnable)
+		Superclass: null
+
+		INTERFACES (java.lang.Runnable)
+		No interface(s) found
+
+		CONSTRUCTOR (java.lang.Runnable)
+		No constructor(s) found
+
+		METHODS (java.lang.Runnable)
+		Method name: run
+		Method exception: None
+		Method parameter type: None
+		Method return type: void
+		Method modifier: public abstract
+
+		FIELDS (java.lang.Runnable)
+		No field(s) found
+
+	CONSTRUCTOR (ClassA)
+	Constructor name: ClassA
+	Constructor parameter type: None
+	Constructor modifier: public
+
+	Constructor name: ClassA
+	Constructor parameter type: int
+	Constructor modifier: public
+
+	METHODS (ClassA)
+	Method name: run
+	Method exception: None
+	Method parameter type: None
+	Method return type: void
+	Method modifier: public
+
+	Method name: toString
+	Method exception: None
+	Method parameter type: None
+	Method return type: class java.lang.String
+	Method modifier: public
+
+	Method name: setVal
+	Method exception: class java.lang.Exception
+	Method parameter type: int
+	Method return type: void
+	Method modifier: public
+
+	Method name: getVal
+	Method exception: None
+	Method parameter type: None
+	Method return type: int
+	Method modifier: public
+
+	Method name: printSomething
+	Method exception: None
+	Method parameter type: None
+	Method return type: void
+	Method modifier: private
+
+	FIELDS (ClassA)
+	Field name: val
+	Field type: int
+	Field modifier: private
+	Field value: 12
+
+		CLASS
+		Class: int
+
+		SUPERCLASS (int)
+		Superclass: null
+
+		INTERFACES (int)
+		No interface(s) found
+
+		CONSTRUCTOR (int)
+		No constructor(s) found
+
+		METHODS (int)
+		No method(s) found
+
+		FIELDS (int)
+		No field(s) found
+
+	Field name: val2
+	Field type: double
+	Field modifier: private
+	Field value: 0.2
+
+		CLASS
+		Class: double
+
+		SUPERCLASS (double)
+		Superclass: null
+
+		INTERFACES (double)
+		No interface(s) found
+
+		CONSTRUCTOR (double)
+		No constructor(s) found
+
+		METHODS (double)
+		No method(s) found
+
+		FIELDS (double)
+		No field(s) found
+
+	Field name: val3
+	Field type: boolean
+	Field modifier: private
+	Field value: true
+
+		CLASS
+		Class: boolean
+
+		SUPERCLASS (boolean)
+		Superclass: null
+
+		INTERFACES (boolean)
+		No interface(s) found
+
+		CONSTRUCTOR (boolean)
+		No constructor(s) found
+
+		METHODS (boolean)
+		No method(s) found
+
+		FIELDS (boolean)
+		No field(s) found
+
+Field name: val3
+Field type: class ClassA
+Field modifier: private
+Field value: null
+
+======================================================
